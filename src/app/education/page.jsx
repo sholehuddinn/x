@@ -7,11 +7,11 @@ import { ImageWithFallback } from "@/components/figma/ImageWithFallback";
 
 const Education = () => {
   const achievements = [
-    { icon: Trophy, title: "IPK Sementara: 3.75/4.00", description: "Konsisten mempertahankan prestasi akademik yang baik" },
-    { icon: Award, title: "Juara 2 Programming Contest 2023", description: "Kompetisi programming tingkat universitas" },
-    { icon: Users, title: "Ketua Divisi IT Himpunan Mahasiswa", description: "Memimpin tim dalam pengembangan sistem informasi" },
-    { icon: BookOpen, title: "Peserta Magang di Startup Tech", description: "3 bulan magang sebagai fullstack developer" },
-    { icon: Star, title: "Sertifikat Web Development Bootcamp", description: "Menyelesaikan bootcamp intensive 6 bulan" }
+    { icon: Trophy, title: "IPK Sementara: 3.81/4.00", description: "Konsisten mempertahankan prestasi akademik yang baik" },
+    { icon: Award, title: "Ketua Panitia Training Next.js", description: "Memimpin panitia dalam penyelenggaraan training Next.js" },
+    { icon: Users, title: "Divisi Sekretaris", description: "Memimpin tim dalam pengembangan sistem informasi" },
+    { icon: BookOpen, title: "Peserta Magang di dicoding", description: "Mengikuti program magang bersertifikat untuk meningkatkan kemampuan teknis" },
+    { icon: Star, title: "Asisten Dosen", description: "Membantu mahasiswa dalam memahami konsep dasar pemrograman java" }
   ];
 
   const subjects = [
@@ -28,21 +28,21 @@ const Education = () => {
   const activities = [
     {
       title: "Himpunan Mahasiswa Teknik Informatika",
-      role: "Ketua Divisi IT",
-      period: "2023 - 2024",
+      role: "Divisi Sekretaris",
+      period: "2025 - Present",
       description: "Memimpin pengembangan website himpunan dan sistem informasi internal"
     },
     {
-      title: "Programming Study Group",
-      role: "Co-Founder",
-      period: "2022 - Present",
-      description: "Mendirikan dan mengelola study group untuk belajar programming bersama"
+      title: "Asisten Dosen Dasar Pemrograman",
+      role: "Asisten Dosen",
+      period: "2024 - Present",
+      description: "Membantu mahasiswa dalam memahami konsep dasar pemrograman java"
     },
     {
-      title: "Tech Startup Internship",
-      role: "Fullstack Developer Intern",
-      period: "Jun - Aug 2024",
-      description: "Magang 3 bulan mengembangkan aplikasi web dan mobile untuk startup lokal"
+      title: "MSIB di Dicoding (program ASAH)",
+      role: "React & backend with AI",
+      period: "8 Agustus 2025 - present",
+      description: "Mengikuti program magang bersertifikat untuk meningkatkan kemampuan teknis"
     }
   ];
 
@@ -111,22 +111,22 @@ const Education = () => {
                 </div>
                 <div className="flex items-center gap-2 text-muted-foreground">
                   <Calendar className="h-4 w-4" />
-                  <span>2022 - 2026 (Expected)</span>
+                  <span>2023 - 2027 (Expected)</span>
                 </div>
                 <div className="flex items-center gap-2 text-muted-foreground">
                   <MapPin className="h-4 w-4" />
-                  <span>Surabaya, Jawa Timur</span>
+                  <span>Sidoarjo, Jawa Timur</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Badge variant="outline" className="font-medium">
-                    Semester 5 - IPK: 3.75/4.00
+                    Semester 4 - IPK: 3.81/4.00
                   </Badge>
                 </div>
               </div>
               
               <p className="mt-6 text-muted-foreground leading-relaxed">
                 Saat ini sedang menempuh pendidikan Sarjana Teknik Informatika dengan fokus 
-                pada pengembangan aplikasi web dan mobile. Aktif mengikuti berbagai kegiatan 
+                pada pengembangan aplikasi web. Aktif mengikuti berbagai kegiatan 
                 akademik dan organisasi untuk mengembangkan soft skills dan networking.
               </p>
             </div>

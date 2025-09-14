@@ -19,13 +19,13 @@ const Resume = () => {
   const personalInfo = {
     name: "Muhammad Fajar Sholehuddin Maulana Putra",
     title: "Fullstack Web Developer",
-    email: "fajar.sholehuddin@example.com",
-    phone: "+62 812-3456-7890",
-    location: "Surabaya, Jawa Timur",
-    website: "https://fajar-portfolio.com",
-    github: "https://github.com/fajar-dev",
-    linkedin: "https://linkedin.com/in/fajar-dev",
-    photo: "https://via.placeholder.com/120", // bisa ganti foto profilmu
+    email: "fajaruddin.soleh@gmail.com",
+    phone: "+62 857-3110-1269",
+    location: "Sidoarjo, Jawa Timur",
+    website: "https://sholehuddin.netlify.app/",
+    github: "https://github.com/sholehuddinn",
+    linkedin: "https://www.linkedin.com/in/muhammad-fajar-sholehuddin-maulana-putra-b901572a1/",
+    photo: "/img/aku_bg_blue.jpg",
   };
 
   const education = [
@@ -33,18 +33,18 @@ const Resume = () => {
       degree: "Sarjana Teknik Informatika",
       school: "Universitas Dr. Soetomo",
       location: "Surabaya, Jawa Timur",
-      period: "2022 - 2026 (Expected)",
+      period: "2023 - 2027 (Expected)",
       status: "Semester 5",
-      gpa: "3.7/4.0",
+      gpa: "3.81/4.0",
     },
   ];
 
   const experience = [
     {
       title: "Freelance Web Developer",
-      company: "Various Clients",
+      company: "Berdiri Sendiri",
       location: "Remote",
-      period: "2023 - Present",
+      period: "2024 - Present",
       responsibilities: [
         "Mengembangkan aplikasi web responsif menggunakan React dan Next.js",
         "Membangun REST API dengan Node.js dan Express.js",
@@ -56,7 +56,7 @@ const Resume = () => {
       title: "Web Development Intern",
       company: "Local Tech Startup",
       location: "Surabaya",
-      period: "Jun 2023 - Aug 2023",
+      period: "2024 - Present",
       responsibilities: [
         "Membantu pengembangan aplikasi web company profile",
         "Melakukan testing dan debugging aplikasi web",
@@ -67,11 +67,11 @@ const Resume = () => {
   ];
 
   const skills = {
-    frontend: ["React", "Next.js", "TypeScript", "JavaScript", "Tailwind CSS"],
-    backend: ["Node.js", "Express.js", "Python", "PHP", "RESTful API"],
-    database: ["MySQL", "PostgreSQL", "MongoDB", "Firebase"],
+    frontend: ["React", "Next.js", "Laravel", "Shadcn UI", "Tailwind CSS"],
+    backend: ["Node.js", "Express.js", "Next.js", "Laravel"],
+    database: ["MySQL", "PostgreSQL", "MongoDB"],
     tools: ["Git", "Docker", "Figma", "Postman"],
-    mobile: ["React Native", "Flutter"],
+    mobile: ["React Native", "Flutter", "Kotlin"],
   };
 
   const projects = [
@@ -89,17 +89,22 @@ const Resume = () => {
   ];
 
   const certifications = [
-    { name: "React Developer Certification", issuer: "Meta", date: "2023" },
+    { name: "Banyak Dari Dicoding", issuer: "Dicoding", date: "2023" },
     {
-      name: "JavaScript Algorithms and Data Structures",
-      issuer: "freeCodeCamp",
+      name: "Banyak Dari Codepolitan",
+      issuer: "Codepolitan",
       date: "2023",
     },
-  ];
-
-  const languages = [
-    { name: "Bahasa Indonesia", level: "Native" },
-    { name: "English", level: "Intermediate" },
+    {
+      name: "React Developer Certification",
+      issuer: "Surabaya JS",
+      date: "2024",
+    },
+    {
+      name: "VSGA Junior Web Developer",
+      issuer: "KOMINFO",
+      date: "2024",
+    }
   ];
 
   return (
@@ -163,14 +168,14 @@ const Resume = () => {
             </div>
 
             {/* Languages */}
-            <div>
+            {/* <div>
               <h2 className="font-semibold text-lg mb-3">Languages</h2>
               {languages.map((lang, idx) => (
                 <p key={idx} className="text-sm text-gray-600">
                   {lang.name} — {lang.level}
                 </p>
               ))}
-            </div>
+            </div> */}
           </div>
 
           {/* Right Column */}

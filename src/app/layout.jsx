@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
         className={`${dmSans.className} antialiased`}
       >
         <Navbar />
-        <main className="pt-16">{children}</main>
+          <main className="pt-16">{children}</main>
         <Footer />
       </body>
     </html>

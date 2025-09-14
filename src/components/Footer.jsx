@@ -17,7 +17,7 @@ const Footer = () => {
     { label: "Tentang Saya", href: "/about" },
     { label: "Projek", href: "/projects" },
     { label: "Pendidikan", href: "/education" },
-    { label: "Kontak", href: "/contact" },
+    { label: "resume", href: "/resume" },
   ];
 
   const services = [

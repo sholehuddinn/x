@@ -72,7 +72,7 @@ export default function Home() {
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8">
-                <Link href="/contact">
+                <Link href="https://api.whatsapp.com/send/?phone=6285731101269&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
                   <Button size="lg" className="gap-2 shadow-lg">
                     <Mail className="h-4 w-4" />
                     Hubungi Saya
@@ -91,11 +91,15 @@ export default function Home() {
               <div className="flex gap-4 justify-center lg:justify-start">
                 <Button variant="ghost" size="sm" className="gap-2">
                   <Github className="h-4 w-4" />
-                  GitHub
+                  <Link href="https://github.com/sholehuddinn" target="_blank" rel="noopener noreferrer">
+                    GitHub
+                  </Link>
                 </Button>
                 <Button variant="ghost" size="sm" className="gap-2">
                   <Linkedin className="h-4 w-4" />
-                  LinkedIn
+                  <Link href="https://www.linkedin.com/in/muhammad-fajar-sholehuddin-maulana-putra-b901572a1/" target="_blank" rel="noopener noreferrer">
+                    LinkedIn
+                  </Link>
                 </Button>
               </div>
             </div>
@@ -105,7 +109,7 @@ export default function Home() {
               <div className="relative">
                 <div className="w-80 h-80 rounded-2xl overflow-hidden border shadow-xl">
                   <Image
-                    src="https://tse3.mm.bing.net/th/id/OIP.eM2z2K0T8xhujmXP5BDd-wHaFA?rs=1&pid=ImgDetMain&o=7&rm=3"
+                    src="/img/aku_bg_blue.jpg"
                     alt="Developer workspace"
                     width={320}
                     height={320}
@@ -209,7 +213,7 @@ export default function Home() {
                   <ArrowRight className="h-4 w-4 ml-1" />
                 </Button>
               </Link>
-              <Link href="/contact">
+              <Link href="https://api.whatsapp.com/send/?phone=6285731101269&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
                 <Button size="lg" className="gap-2 shadow-lg">
                   <Mail className="h-4 w-4" />
                   Mulai Diskusi

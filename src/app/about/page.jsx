@@ -31,24 +31,26 @@ const AboutPage = () => {
         "React",
         "Next.js",
         "TypeScript",
+        "vue.js",
         "Tailwind CSS",
-        "JavaScript",
+        "Shadcn UI",
+        "Bootstrap",
       ],
     },
     {
       category: "Backend Development",
       icon: Database,
-      technologies: ["Node.js", "Express.js", "Python", "PHP", "RESTful API"],
+      technologies: ["Node.js", "Express.js", "Next.js API", "franken PHP", "RESTful API"],
     },
     {
       category: "Database & Tools",
       icon: Database,
-      technologies: ["MySQL", "PostgreSQL", "MongoDB", "Firebase", "Git"],
+      technologies: ["MySQL", "PostgreSQL", "MongoDB", ],
     },
     {
       category: "Mobile Development",
       icon: Smartphone,
-      technologies: ["React Native", "Flutter", "App Store", "Play Store"],
+      technologies: ["kotlin", "flutter"],
     },
   ];
 
@@ -77,7 +79,7 @@ const AboutPage = () => {
 
   const journey = [
     {
-      year: "2022",
+      year: "2023",
       title: "Memulai Kuliah",
       description:
         "Masuk ke Universitas Dr. Soetomo jurusan Teknik Informatika",
@@ -86,7 +88,7 @@ const AboutPage = () => {
       year: "2023",
       title: "First Web Project",
       description:
-        "Membuat website pertama menggunakan HTML, CSS, dan JavaScript",
+        "Belajar Membuat website pertama menggunakan HTML, CSS, dan JavaScript",
     },
     {
       year: "2023",
@@ -298,7 +300,7 @@ const AboutPage = () => {
                   <ArrowRight className="h-4 w-4 ml-1" />
                 </Button>
               </Link>
-              <Link href="/contact">
+              <Link href="/https://api.whatsapp.com/send/?phone=6285731101269&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
                 <Button size="lg" variant="outline" className="gap-2">
                   <Heart className="h-4 w-4" />
                   Mari Berkolaborasi
