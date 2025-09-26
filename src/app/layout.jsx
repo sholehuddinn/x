@@ -2,8 +2,9 @@ import { DM_Sans } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import Script from "next/script"; // ⬅️ import Script
-import AnalyticsListener from "./analytics-listener";
+import Script from "next/script";
+import { Suspense } from "react";
+import AnalyticsListener from "./analytics-listener"; // client component
 
 const dmSans = DM_Sans({
   subsets: ["latin"],
@@ -18,7 +19,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
+      <body className={`${dmSans.className} antialiased`}>
         {/* Google Analytics */}
         {process.env.NEXT_PUBLIC_GA_ID && (
           <>
@@ -38,9 +39,12 @@ export default function RootLayout({ children }) {
             </Script>
           </>
         )}
-      </head>
-      <body className={`${dmSans.className} antialiased`}>
-        <AnalyticsListener />
+
+        {/* Suspense wrapper for Analytics */}
+        <Suspense fallback={null}>
+          <AnalyticsListener />
+        </Suspense>
+
         <Navbar />
         <main className="pt-16">{children}</main>
         <Footer />

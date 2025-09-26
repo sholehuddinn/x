@@ -1,10 +1,9 @@
 "use client"
 
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { GraduationCap, Calendar, MapPin, Award, BookOpen, Users, Trophy, Star } from "lucide-react";
 import { ImageWithFallback } from "@/components/figma/ImageWithFallback";
-import { Suspense } from "react";
 
 const Education = () => {
   const achievements = [
