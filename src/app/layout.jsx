@@ -13,9 +13,6 @@ const dmSans = DM_Sans({
 export const metadata = {
   title: "Portfolio Fajar",
   description: "Portfolio website of Fajar Sholehuddin",
-  icons: {
-    icon: "../public/img/aku_bg_blue.png",
-  },
 };
 
 export default function RootLayout({ children }) {
